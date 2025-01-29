@@ -13,8 +13,6 @@ public class Vehicle {
         this.engineSize = engineSize;
         this.fuelType = fuelType;
 
-        //
-
     }
 
     //getter&setter
@@ -42,6 +40,16 @@ public class Vehicle {
     public void setFuelType(String fuelType){
         this.fuelType = fuelType;
     }
+
+    //displayInfo printing
+    public void displayInfo(){
+        System.out.println("Vehicle Info: ");
+        System.out.println("Wheels: " + numberOfWheels);
+        System.out.println("Color: " + color);
+        System.out.println("Engine Size: " + engineSize);
+        System.out.println("Fuel Type: " + fuelType);
+    }
+
 
 
 
