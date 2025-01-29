@@ -13,6 +13,8 @@ public class Vehicle {
         this.engineSize = engineSize;
         this.fuelType = fuelType;
 
+        //
+
     }
 
     //getter&setter
